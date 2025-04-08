@@ -1,0 +1,10 @@
+import sys
+t = int(input())
+input = sys.stdin.readline
+
+while True:
+        try:
+             a, b = map(int, sys.stdin.readline().split())
+             print(a+b)
+        except:
+               break
